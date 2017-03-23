@@ -14,6 +14,8 @@
 		E0E2BB3A1E38E9CD007C04DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E2BB381E38E9CD007C04DE /* LaunchScreen.storyboard */; };
 		E0E2BB451E38E9CD007C04DE /* AudioPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E2BB441E38E9CD007C04DE /* AudioPlayerTests.swift */; };
 		E0E2BB501E38E9CD007C04DE /* AudioPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E2BB4F1E38E9CD007C04DE /* AudioPlayerUITests.swift */; };
+		E0E2BB5E1E38EFEF007C04DE /* monuments.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0E2BB5D1E38EFEF007C04DE /* monuments.jpg */; };
+		E0E2BB601E38F077007C04DE /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0E2BB5F1E38F077007C04DE /* song.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E0E2BB4B1E38E9CD007C04DE /* AudioPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E2BB4F1E38E9CD007C04DE /* AudioPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerUITests.swift; sourceTree = "<group>"; };
 		E0E2BB511E38E9CD007C04DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E2BB5D1E38EFEF007C04DE /* monuments.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = monuments.jpg; sourceTree = "<group>"; };
+		E0E2BB5F1E38F077007C04DE /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		E0E2BB2E1E38E9CD007C04DE /* AudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				E0E2BB5F1E38F077007C04DE /* song.mp3 */,
+				E0E2BB5D1E38EFEF007C04DE /* monuments.jpg */,
 				E0E2BB2F1E38E9CD007C04DE /* AppDelegate.swift */,
 				E0E2BB311E38E9CD007C04DE /* ViewController.swift */,
 				E0E2BB331E38E9CD007C04DE /* Main.storyboard */,
@@ -236,7 +242,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0E2BB3A1E38E9CD007C04DE /* LaunchScreen.storyboard in Resources */,
+				E0E2BB601E38F077007C04DE /* song.mp3 in Resources */,
 				E0E2BB371E38E9CD007C04DE /* Assets.xcassets in Resources */,
+				E0E2BB5E1E38EFEF007C04DE /* monuments.jpg in Resources */,
 				E0E2BB351E38E9CD007C04DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
